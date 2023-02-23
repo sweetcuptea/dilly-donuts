@@ -3,7 +3,7 @@
 a simple landing page that i made, for revoU mini course project
 
 ## homepage
-![screencapture-sweetcuptea-github-io-dilly-donuts-index-html-2023-02-23-17_48_40](https://user-images.githubusercontent.com/105599657/220885889-0aca5af7-0974-482b-a2f5-8c76d9895f29.png)
+![screencapture-sweetcuptea-github-io-dilly-donuts-index-html-2023-02-23-17_48_40](https://user-images.githubusercontent.com/105599657/220886306-ffaba8c4-e691-4183-843d-573f55b1ebc4.png)
 
 
 ## profile page
