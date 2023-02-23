@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DD - Dilly Donuts</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+
+    <link rel="icon" href="img/donut-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#">
+          <div class="logo">DD</div>
+        </a>
+        <i class="ti ti-menu-2"></i>
+        <div class="toggle navigation-list">
+          <ul>
+            <li>
+              <a href="profile.html">Profile</a>
+            </li>
+            <li>
+              <a href="#company-profile">Company Profile</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="hero-section">
+        <h1>Dilly Donuts</h1>
+        <h2>Welcome to the sweet world donuts</h2>
+      </div>
+    </header>
+
+    <main>
+      <div id="company-profile" class="about-company-section">
+        <section>
+          <h2>From our kitchen,<span> to your tummy.</span></h2>
+          <article>
+            <p>
+              Started in 2016 wa'we been making delicious, award-winning donuts
+              since we opened our doors.
+            </p>
+            <p>
+              Donuts are for everyone to enjoy! Wheter you're felling for
+              something decorated with sprinkles, filled with fruits on the
+              inside or just simple and plan - we've got you. Come and visit our
+              sweet spot on Queen!
+            </p>
+          </article>
+        </section>
+        <section>
+          <img src="./img/company-section-img.jpg" alt="Dully Donuts" />
+        </section>
+      </div>
+
+      <section class="company-ingredients-section">
+        <h2>Only the best ingredients.</h2>
+        <p>
+          Handmade from scratch using quality locally sourced ingredients. We
+          also offer vegan and vegetarian options
+        </p>
+      </section>
+
+      <section class="display-product-section">
+        <div>
+          <img src="img/display-img-1.jpg" alt="dilly donuts original" />
+        </div>
+        <div>
+          <img src="img/display-img-2.jpg" alt="dilly donuts pack" />
+        </div>
+      </section>
+
+      <section class="features-section">
+        <div class="features-item">delicious</div>
+        <div class="features-item">cheap</div>
+        <div class="features-item">yummy</div>
+      </section>
+
+      <section class="message-us-section" id="contact">
+        <div id="output"></div>
+        <h2>leave a messages</h2>
+        <form>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Input your name"
+          />
+          <input
+            type="date"
+            id="birthday"
+            name="birthday"
+            placeholder="input your birthday"
+          />
+          <div class="radio-input">
+            <div class="radio-input-list">
+              <input type="radio" id="male" name="gender" value="male" />
+              male
+            </div>
+            <div class="radio-input-list">
+              <input type="radio" id="female" name="gender" value="female" />
+              female
+            </div>
+          </div>
+          <textarea id="messages" name="message"></textarea>
+          <p id="validate-messages"></p>
+          <button id="submit-button" type="button">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>&copy Dilly Donuts. All rights reserved.</footer>
+  </body>
+
+  <script></script>
+</html>
