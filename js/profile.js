@@ -1,6 +1,7 @@
 const visitor = document.querySelector(".visitor");
 const visitorButton = document.querySelector("#visitor-button");
 
+// visitor pop up
 visitorButton.addEventListener("click", (e) => {
   e.preventDefault();
   const visitorNameInput = document.querySelector("#visitor-name-input");

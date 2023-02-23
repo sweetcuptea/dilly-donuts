@@ -3,7 +3,7 @@ const toggleNavigationMenu = document.querySelector(".navigation-list");
 const submitButton = document.querySelector("#submit-button");
 const validateRadio = document.querySelector(".radio-input");
 
-
+// navigation menu toggle
 navigationIcon.addEventListener("click", (e) => {
   e.preventDefault();
   toggleNavigationMenu.classList.contains("toggle")
@@ -11,6 +11,7 @@ navigationIcon.addEventListener("click", (e) => {
     : toggleNavigationMenu.classList.add("toggle");
 });
 
+// submit form action
 submitButton.addEventListener("click", (e) => {
   e.preventDefault();
   const name = document.querySelector("#name");
@@ -68,6 +69,7 @@ submitButton.addEventListener("click", (e) => {
   ) {
     validateErrorMessages.innerText = "your input still empty";
   } else {
+    // render
     output.innerHTML = `
       <div>
         <p><span>name</span> : ${name.value}</p>
@@ -77,6 +79,7 @@ submitButton.addEventListener("click", (e) => {
       </div>
     `;
 
+    // reset form
     name.value = "";
     birthday.value = "";
     gender.checked = null;
@@ -84,5 +87,3 @@ submitButton.addEventListener("click", (e) => {
     validateErrorMessages.innerText = "";
   }
 });
-
-
